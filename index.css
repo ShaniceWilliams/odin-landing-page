@@ -58,6 +58,7 @@ p.hero-subtitle, .nav-menu-link {
 .hero-content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero-left {
@@ -66,7 +67,7 @@ p.hero-subtitle, .nav-menu-link {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 48px;
+    padding: 0px 24px;
 }
 
 .hero-right {
@@ -80,4 +81,26 @@ button.main-cta {
     background-color: #3882f6;
     padding: 10px;
     border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.card-container {
+    padding: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    padding: 16px;
+    width: 300px;
+    border-radius: 8px;
+    border: 4px solid #3882f6;
 }

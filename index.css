@@ -2,7 +2,7 @@
     border: 2px red solid;
   } */
 
-  body {
+body {
     font-family: "Roboto", serif;
     display: flex;
     flex-direction: column;
@@ -41,12 +41,13 @@ div.nav-bar {
     font-size: 24px;
     font-weight: 900;
     padding: 24px;
+    /* margin-left: 16px; */
 }
 
 ul.nav-menu {
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 0 16px;
     gap: 16px;
 }
 
@@ -58,6 +59,7 @@ p.hero-subtitle, .nav-menu-link{
 .hero-content {
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
     flex-wrap: wrap;
 }
 
@@ -67,7 +69,11 @@ p.hero-subtitle, .nav-menu-link{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0px 24px;
+    padding: 32px;
+}
+
+.hero-title, .hero-subtitle {
+    margin: 0px;
 }
 
 .hero-right {
@@ -82,6 +88,8 @@ button.main-cta {
     padding: 10px;
     border-radius: 8px;
 }
+
+/* Card Section */
 
 h2 {
     text-align: center;
